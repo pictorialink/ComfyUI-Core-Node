@@ -1,0 +1,63 @@
+{
+    "common": [
+        {
+            "repo_id": "Pictorial/turbor_v32",
+            "local_path": "/models/checkpoints",
+            "files": [
+                "turbovisionxlSuperFastXLBasedOnNew_tvxlV32Bakedvae.safetensors"
+            ]
+        },
+        {
+            "repo_id": "Pictorial/4x-UltraSharp",
+            "local_path": "models/upscale_models",
+            "files": [
+                "4x-UltraSharp.pth"
+            ]
+        },
+        {
+            "repo_id": "Pictorial/loras",
+            "local_path": "models/loras"
+        },
+        {
+            "repo_id": "Pictorial/vae",
+            "local_path": "models/vae"
+        },
+        {
+            "repo_id": "Pictorial/inpaint",
+            "local_path": "models/inpaint"
+        },
+        {
+            "repo_id": "Pictorial/controlnet",
+            "local_path": "models/controlnet"
+        },
+        {
+            "repo_id": "Pictorial/t5xxl",
+            "local_path": "models/clip",
+            "files": [
+                "t5xxl_fp8_e4m3fn_scaled.safetensors"
+            ]
+        },
+        {
+            "repo_id": "Pictorial/clip",
+            "local_path": "models/controlnet"
+        }
+    ],
+    "mps": [
+        {
+            "repo_id": "bullerwins/FLUX.1-Kontext-dev-GGUF",
+            "local_path": "models/unet",
+            "files":[
+                "flux1-kontext-dev-Q5_K_M.gguf"
+            ]
+        }
+    ],
+    "cuda": [
+        {
+            "repo_id": "Pictorial/unet",
+            "local_path": "models/unet",
+            "files": [
+                "split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors"
+            ]
+        }
+    ]
+}
