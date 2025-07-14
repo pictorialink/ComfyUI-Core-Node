@@ -2,7 +2,7 @@
     "common": [
         {
             "repo_id": "Pictorial/turbor_v32",
-            "local_path": "/models/checkpoints",
+            "local_path": "models/checkpoints",
             "files": [
                 "turbovisionxlSuperFastXLBasedOnNew_tvxlV32Bakedvae.safetensors"
             ]
