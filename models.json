@@ -56,7 +56,7 @@
             "repo_id": "Pictorial/unet",
             "local_path": "models/unet",
             "files": [
-                "split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors"
+                "flux1-dev-kontext_fp8_scaled.safetensors"
             ]
         }
     ]
