@@ -44,7 +44,7 @@
     ],
     "mps": [
         {
-            "repo_id": "bullerwins/FLUX.1-Kontext-dev-GGUF",
+            "repo_id": "Pictorial/unet",
             "local_path": "models/unet",
             "files":[
                 "flux1-kontext-dev-Q5_K_M.gguf"
