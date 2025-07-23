@@ -29,35 +29,6 @@
         {
             "repo_id": "Pictorial/controlnet",
             "local_path": "models/controlnet"
-        },
-        {
-            "repo_id": "Pictorial/t5xxl",
-            "local_path": "models/clip",
-            "files": [
-                "t5xxl_fp8_e4m3fn_scaled.safetensors"
-            ]
-        },
-        {
-            "repo_id": "Pictorial/clip",
-            "local_path": "models/controlnet"
-        }
-    ],
-    "mps": [
-        {
-            "repo_id": "Pictorial/unet",
-            "local_path": "models/unet",
-            "files":[
-                "flux1-kontext-dev-Q5_K_M.gguf"
-            ]
-        }
-    ],
-    "cuda": [
-        {
-            "repo_id": "Pictorial/unet",
-            "local_path": "models/unet",
-            "files": [
-                "flux1-dev-kontext_fp8_scaled.safetensors"
-            ]
         }
     ]
 }
